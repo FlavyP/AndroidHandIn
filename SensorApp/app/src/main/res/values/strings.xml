@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_compass">Compass</string>
+    <string name="title_activity_sensors">Sensors</string>
+    <string name="title_activity_lightsaber">Lightsaber</string>
+    <string name="title_activity_geiger">Geiger</string>
+</resources>

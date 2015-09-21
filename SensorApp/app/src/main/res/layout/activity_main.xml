@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/sensorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#c2cbff"
+            android:textColor="#000"
+            android:alpha="0.8"
+            android:text="Sensors"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/compassButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#c2cbff"
+            android:textColor="#000"
+            android:alpha="0.8"
+            android:text="Compass"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/lightsaberButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#c2cbff"
+            android:textColor="#000"
+            android:alpha="0.8"
+            android:text="LightSaber"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/geigerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#c2cbff"
+            android:textColor="#000"
+            android:alpha="0.8"
+            android:text="Geiger"
+            android:textSize="20dp"
+            />
+
+    </TableLayout>
+
+
+</RelativeLayout>
