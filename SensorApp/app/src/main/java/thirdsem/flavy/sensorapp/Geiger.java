@@ -11,8 +11,10 @@ import android.media.SoundPool;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 public class Geiger extends AppCompatActivity implements SensorEventListener {
+
 
     private SensorManager sensorManager;
     private Sensor accelerometer;
@@ -95,6 +97,21 @@ public class Geiger extends AppCompatActivity implements SensorEventListener {
         super.onDestroy();
         soundPool.stop(soundID);
         soundPool.release();
+    }
+
+    @Override
+    protected void onStart () {
+        super.onStart();
+    }
+
+    @Override
+    protected void onRestart () {
+        super.onRestart();
+    }
+
+    @Override
+    protected void onStop () {
+        super.onStop();
     }
 
     @Override
