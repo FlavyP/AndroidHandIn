@@ -52,7 +52,7 @@ public class Lightsaber extends AppCompatActivity implements SensorEventListener
 
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
-        soundID = soundPool.load(this, R.raw.tick, 1);
+        soundID = soundPool.load(this, R.raw.saberswing , 1);
         lastUpdate = System.currentTimeMillis();
     }
 
@@ -126,7 +126,7 @@ public class Lightsaber extends AppCompatActivity implements SensorEventListener
 
                 float accelationSquareRoot = (x * x + y * y + z * z) / (SensorManager.GRAVITY_EARTH * SensorManager.GRAVITY_EARTH);
 
-                if(accelationSquareRoot >= 2)
+                if(accelationSquareRoot >= 1.5)
                 {
                     playSound(volume);
                 }
